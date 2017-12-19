@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Kyle Gobel</Authors>
+    <Company />
+    <Product />
+    <Description>Etcd ConfigurationProvider for the aspnetcore configuration system.</Description>
+    <PackageProjectUrl>https://github.com/KyleGobel/EtcdConfigurationProvider</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/coreos/etcd/raw/master/logos/etcd-horizontal-color.png</PackageIconUrl>
+    <PackageTags>etcd, configurationprovider</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EtcdNetCore" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.0.0" />
+  </ItemGroup>
 
 </Project>
